@@ -45,6 +45,7 @@ venv.bak/
 
 # IDE
 .vscode/
+.cursor/
 .idea/
 *.swp
 *.swo
@@ -70,8 +71,3 @@ logs/
 # Temporary files
 *.tmp
 *.temp
-
-# Markdown files
-Текущие_задачи.md
-Общее_описание_работы.md
-venv/
