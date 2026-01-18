@@ -78,4 +78,6 @@ logs/
 *.tmp
 *.temp
 
+# Data files
+data/asd/
 
