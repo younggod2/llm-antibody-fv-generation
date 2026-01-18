@@ -1,8 +1,9 @@
 # Data files
 articles/
 
-# ANARCI
-ANARCI
+# mmseqs
+mmseq/mmseqs/
+mmseq/tmp/
 
 # macOS
 .DS_Store
@@ -50,6 +51,7 @@ venv.bak/
 .vscode/
 .cursor/
 .cursorignore
+.paper-ref.json
 .idea/
 *.swp
 *.swo
@@ -75,3 +77,5 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+
+

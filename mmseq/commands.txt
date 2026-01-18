@@ -1,0 +1,10 @@
+python mmseq/01_prepare_fasta.py
+
+cd mmseq
+chmod +x 02_run_mmseqs.sh
+./02_run_mmseqs.sh
+
+python mmseq/03_process_results.py
+
+rsync -avz /Users/denischekalin/Desktop/Cursor/Antibody/mmseq/ slon:/home/denischeck/mmseq/
+rsync -avz slon:/home/denischeck/mmseq/ /Users/denischekalin/Desktop/Cursor/Antibody/mmseq/
