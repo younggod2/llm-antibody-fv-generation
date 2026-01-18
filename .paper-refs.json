@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-15T00:47:46.686Z",
+  "lastUpdated": "2026-01-15T01:37:18.852Z",
   "papers": [],
   "history": [
     {
@@ -22,6 +22,20 @@
         "doi:10.1101/2024.03.26.586756",
         "doi:10.1101/2024.11.11.622872",
         "doi:10.1002/wcms.1410"
+      ],
+      "filesChanged": [
+        "text/Литобзор.md"
+      ]
+    },
+    {
+      "commitHash": "d61c60ea81f51a16bc6d9c26bda6f37b03f3981a",
+      "timestamp": 1768440972910,
+      "message": "check links + binarization",
+      "papersAdded": [
+        "arxiv:publication/3589715"
+      ],
+      "papersRemoved": [
+        "arxiv:publication/3589715"
       ],
       "filesChanged": [
         "text/Литобзор.md"

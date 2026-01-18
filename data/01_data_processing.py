@@ -33,7 +33,7 @@ def filter_basic(df: pd.DataFrame) -> pd.DataFrame:
     """Базовая фильтрация: не nanobody, high confidence, обе цепи или scfv"""
     mask = (
         (df['nanobody'] == False)
-        & df['confidence'].isin(['high', 'very_high'])
+        # & df['confidence'].isin(['high', 'very_high'])
         & (
             (df['scfv'] == True)
             | (
@@ -86,7 +86,7 @@ def main():
     )
     print(f"После удаления дубликатов: {df.shape}")
     
-    output_path = 'agab_filtered.parquet'
+    output_path = '/Users/denischekalin/Desktop/Cursor/Antibody/data/agab_filtered.parquet'
     df.to_parquet(output_path, index=False, engine='pyarrow')
     print(f"Сохранено в {output_path}")
 
