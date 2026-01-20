@@ -1,10 +1,4 @@
-# Data files
-articles/
-
-# mmseqs
-mmseq/mmseqs/
-mmseq/tmp/
-
+# 1️⃣ OS / Editor
 # macOS
 .DS_Store
 .DS_Store?
@@ -14,15 +8,28 @@ mmseq/tmp/
 ehthumbs.db
 Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# IDE
+.vscode/
+.idea/
+.cursor/
+.cursorignore
+*.swp
+*.swo
+*~
 
+# 2️⃣ Language/Platform-specific
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 3️⃣ Build / Distribution
 build/
 develop-eggs/
 dist/
@@ -35,47 +42,42 @@ parts/
 sdist/
 var/
 wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# Virtual environments
+# 4️⃣ Virtual Environments
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
 
-# IDE
-.vscode/
-.cursor/
-.cursorignore
-.paper-ref.json
-.idea/
-*.swp
-*.swo
-
-# Data files (if too large)
+# 5️⃣ Data / Outputs / Results
+data/asd/
+articles/
 *.parquet
 *.csv
 *.tsv
 *.h5
 *.hdf5
 
-# Model files
+# 6️⃣ Logs / Temporary / Cache
+*.log
+logs/
+*.tmp
+*.temp
+.ipynb_checkpoints
+.pytest_cache/
+.cache/
+
+# 7️⃣ Model Files / Artifacts
 *.pkl
 *.joblib
 *.model
 *.bin
 *.safetensors
 
-# Logs
-*.log
-logs/
-
-# Temporary files
-*.tmp
-*.temp
-
+# 8️⃣ Project-specific
+mmseq/mmseqs/
+mmseq/tmp/
+text/coursework_examples/
+.paper-refs.json
 
